@@ -20,7 +20,8 @@ Sub GestionarHorasAverias()
 
     ' Definir rangos de las máquinas
     Ranges = Array("F397:F403", "F408:F411", "F416:F418", "F423:F424", "F431:F433")
-
+    
+    ' Dar nombre a los rangos de las máquinas
     RangeNames = Array("Carretillas Gasoil", "Carretillas Eléctricas", "Trackers", "Plataformas", "Reach Stacker")
 
     ' Dimensionar dinámicamente el array de horas totales
